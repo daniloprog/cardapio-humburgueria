@@ -1,29 +1,37 @@
 .container {
-  width: 393px;
+  width: 100%;
   height: 456px;
   background: url(../assets/banner-menu-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
 .container .container-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--branco);
   font-family: "Inter";
-  text-align: center;
 }
 
-.container .container-menu img {
-  width: 185px;
-  margin: 51px auto 0 auto;
+.container .container-menu .image-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px var(--preto);
 }
+.container .container-menu .image-logo:hover {
+  scale: 1.1;
+  transition-duration: 1s;
+}
+
 .container .container-menu h1 {
   font-size: 28px;
-  margin: 24px auto 4px auto;
   font-weight: var(--titulo);
 }
 
 .container .container-menu p {
   font-size: 16px;
-  margin-bottom: 16px;
   font-weight: var(--texto);
 }
 
