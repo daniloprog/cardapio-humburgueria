@@ -5,6 +5,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto-VariableFont_wdth\,wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
