@@ -1,5 +1,5 @@
-.principal {
-  width: 100%;
+.container {
+  width: 393px;
   height: 456px;
   background: url(../assets/banner-menu-mobile.jpg) no-repeat;
   background-size: cover;
