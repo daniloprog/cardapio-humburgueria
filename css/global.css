@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../fonts/Inter-VariableFont_opsz\wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #ffffff;
+  --preto: #000000;
+
+  --botao-menu: #db3026;
+
+  --titulo: 700;
+  --texto: 400;
+}

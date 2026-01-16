@@ -1,0 +1,40 @@
+.container {
+  width: 393px;
+  height: 456px;
+  background: url(../assets/banner-menu-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container .container-menu {
+  color: var(--branco);
+  font-family: "Inter";
+  text-align: center;
+}
+
+.container .container-menu img {
+  width: 185px;
+  margin: 51px auto 0 auto;
+}
+.container .container-menu h1 {
+  font-size: 28px;
+  margin: 24px auto 4px auto;
+  font-weight: var(--titulo);
+}
+
+.container .container-menu p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: var(--texto);
+}
+
+.container .container-menu button {
+  width: 266px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: var(--titulo);
+  padding: 8px 16px;
+  background: var(--botao-menu);
+}
