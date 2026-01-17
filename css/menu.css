@@ -39,9 +39,6 @@
   font-weight: var(--texto);
 }
 
-.container .container-menu {
-  width: 266px;
-  height: 48px;
 .container .container-menu .horario {
   border-radius: 5px;
   border: none;
