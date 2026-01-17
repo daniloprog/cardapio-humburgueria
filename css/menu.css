@@ -39,7 +39,7 @@
   font-weight: var(--texto);
 }
 
-.container .container-menu button {
+.container .container-menu {
   width: 266px;
   height: 48px;
   border-radius: 5px;
